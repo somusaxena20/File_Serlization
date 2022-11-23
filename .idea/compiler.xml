@@ -9,5 +9,8 @@
         <module name="Serialization" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Serialization" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
