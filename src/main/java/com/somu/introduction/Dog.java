@@ -11,6 +11,8 @@ public class Dog implements Serializable {
     String color;
 
     public Dog(String name, String color) {
+
+        System.out.println("Inside Args Const...");
         this.name = name;
         this.color = color;
     }

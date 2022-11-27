@@ -13,6 +13,7 @@ public class Main2 {
         d1.i = 100;
         d1.j = 200;
 
+        System.out.println("SERIALIZATIION STARTED...");
         FileOutputStream fos = new FileOutputStream("Main2.txt");
         ObjectOutputStream oos = new ObjectOutputStream(fos);
 
@@ -21,6 +22,7 @@ public class Main2 {
         oos.close();
         fos.close();
 
+        System.out.println("DESERIALIZATIION STARTED...");
         FileInputStream fis = new FileInputStream("Main2.txt");
         ObjectInputStream ois = new ObjectInputStream(fis);
 
